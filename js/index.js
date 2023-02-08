@@ -54,7 +54,7 @@ function displayItem() {
 
 function refreshQuote() {
   displayItem();
-  randomIteration =
+  var randomIteration =
     quotesReference[Math.floor(Math.random() * quotesReference.length)]; //https://stackoverflow.com/questions/37167264/javascript-output-random-object-from-array-of-objects
 
   quoteElement.innerHTML = `<i class="fa-solid fa-quote-left me-3 display-3 text-warning"></i
