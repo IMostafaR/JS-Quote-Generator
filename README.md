@@ -15,8 +15,8 @@ This is my work assigned by [Route-Academy](https://www.linkedin.com/company/rou
 
 ### Links
 
-- Solution URL: [Code]()
-- Live Site URL: [Live Site]())
+- Solution URL: [Code](https://github.com/IMostafaR/JS-Quote-Generator)
+- Live Site URL: [Live Site](https://imostafar.github.io/JS-Quote-Generator/)
 
 ### Built with
 
