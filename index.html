@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Quotes [JS-Assignment-8]</title>
+  </head>
+  <body>
+    <main class="pt-5 text-center">
+      <h1 class="display-1 fw-bold my-5 text-white">Quote of the Day</h1>
+      <h2 class="fs-3 fw-normal mb-5 text-white">
+        Press the button below to receive a random quote!
+      </h2>
+      <button
+        onclick="refreshQuote()"
+        class="btn btn-warning btn-outline-dark px-5 py-4 my-3"
+      >
+        New Quote
+      </button>
+      <div id="quoteContainer" class="invisible w-75 mt-5 m-auto">
+        <blockquote
+          id="quote"
+          class="fs-1 fw-normal text-danger-emphasis"
+        ></blockquote>
+        <p id="author" class="fs-3 text-secondary"></p>
+      </div>
+    </main>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

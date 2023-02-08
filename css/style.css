@@ -1,0 +1,8 @@
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(33, 36, 33, 0.7)),
+    url(../images/pexels-aarti-vijay-2693529.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
